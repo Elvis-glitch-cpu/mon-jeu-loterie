@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 import random
 
@@ -226,4 +226,4 @@ else:
         st.session_state.selected_questions = random.sample(all_questions, min(len(all_questions), 10))
         st.rerun()
 
-```
+
